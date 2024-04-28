@@ -2,8 +2,8 @@
 
 * Research Paper: [DroidScope: Seamlessly Reconstructing the OS and Dalvik Semantic Views for Dynamic Android Malware Analysis](https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/yan)
 * Before you start, please check the original repository of [Droidscope](https://github.com/decaf-project/Droidscope/tree/master).
-* Check [google DECAF group](https://groups.google.com/g/decaf-platform-discuss), if you face any issues.
-* Check [google archive of droidscope](https://code.google.com/archive/p/decaf-platform/wikis/DroidScope.wiki).
+* Check [Google DECAF group](https://groups.google.com/g/decaf-platform-discuss), if you face any issues.
+* Check [Google archive of Droidscope](https://code.google.com/archive/p/decaf-platform/wikis/DroidScope.wiki).
 * [Watch My DroidScope Implementation](https://github.com/rahul07bagul/Droidscope/blob/master/videos/Droidscope.mp4)
 * [Watch My DECAF Implementation](https://github.com/rahul07bagul/Droidscope/blob/master/videos/DECAF.mp4)
 
