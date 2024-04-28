@@ -35,7 +35,7 @@ I implemented this research paper as part of my course and faced many issues whi
    * I tried the Docker image and was unsure where I went wrong, but I encountered errors indicating missing GPU support needed to run the Android emulator.
    * Conclusion: You can build Android using Docker, but you cannot run the emulator from Docker. (This was my experience; your results may vary)
 * If you are considering using VirtualBox, which I eventually used when Docker failed to run the emulator:
-   * Download the Ubuntu 14.04 ISO image from: [Ubunut 14.04 ISO Image](https://old-releases.ubuntu.com/releases/14.04.0/)
+   * Download the Ubuntu 14.04 ISO image from: [Ubuntu 14.04 ISO Image](https://old-releases.ubuntu.com/releases/14.04.0/)
    * Download and install VirtualBox from: [VirtualBox](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md)
       * Follow the steps in the manual and use your Ubuntu 14.04 image, allocating 12 GB of memory for the VM.
 
