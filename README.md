@@ -139,4 +139,5 @@ To use the script: `./install_uninstall.sh /path/to/your/app.apk 1`
 * You might face issues with missing libraries, use chatgpt with errors.
 * I don't know which commands I actually used to solve those errors but you will get answers on chatgpt or StackOverflow, else let me know. I have a file with the history of my commands.
 * I used decaf-discussion group to find solutions as I was totally a beginner.
-* I also contacted origin repository author and he helped with some steps.
+* I also contacted the origin repository author and he helped with some steps.
+* At the end if you are not getting the screen that I added in the first screenshot, contact me and I will give you the original Android build files that they used in their project but first follow all steps.
