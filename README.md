@@ -12,13 +12,13 @@ I implemented this research paper as part of my course and faced many issues whi
 
 <img width=1200 src="https://github.com/rahul07bagul/Droidscope/blob/master/images/Final.png" alt="bench">
 
-## Host Environment for Droidscope:
+## Environment for Droidscope:
 * Ubuntu 16.04
 * Android-5.0.0_r2  
 * Goldfish 3.4  
 * Docker   
 
-## Host Environment for Android Build:
+## Environment for Android Build:
 * As the implementation used Android 5, we must also use the same version. I tried using other versions of Android to see if they would work, but they did not.
 * I attempted Android 6, 10, and 11 using AOSP, but ultimately you have to use Android 5 as the Droidscope implementation only supports Android 5.
 * Since Android 5 is a very old version, we need to set up an environment to build it.
@@ -63,11 +63,12 @@ I implemented this research paper as part of my course and faced many issues whi
         * If the emulator command didn't work but the Android build is successful, then in the Droidscope container after the below steps, create this file manually: `userData-qemu.img` in the images directory (`touch userData-qemu.img`). 
 
 ## Steps to run Droidscope in Docker:
+* Download GitHub repository for droidscope.
 * Now you can follow the same steps as from the main repository, but they used Docker to build Droidscope; however, I used a VM. You can go with Docker if you are an "expert" in Docker.
 * Remember, if you use a VM for Droidscope, then you might need to follow some different steps, I mean don't use Docker commands but use commands from the Dockerfile of Droidscope.
 * If your host is Windows, then download Xlaunch and use that with Docker commands for GUI; use GPT for commands.
 * If you are on Ubuntu, then follow the below commands as is.
-  
+
 ### 1. Build the Docker image
 `docker build --network=host -t droidscope /path/to/the/dockerfile`
 ### 2. Search for the created image:
