@@ -40,6 +40,7 @@ I implemented this research paper as part of my course and faced many issues whi
       * Follow the steps in the manual and use your Ubuntu 14.04 image, allocating 12 GB of memory for the VM.
 
 ## Use the below Docker file to set up the Ubuntu 14.04 environment:
+[Android Build Environment Ubuntu 14.04 Dockerfile](https://github.com/rahul07bagul/Droidscope/blob/master/android-docker/Dockerfile)
  
 ## Android Build
   * Create an Android directory using `mkdir android`
