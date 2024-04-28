@@ -6,7 +6,7 @@
 * Check [Google archive of Droidscope](https://code.google.com/archive/p/decaf-platform/wikis/DroidScope.wiki).
 * [Watch My DroidScope Implementation](https://github.com/rahul07bagul/Droidscope/blob/master/videos/Droidscope.mp4)
 * [Watch My DECAF Implementation](https://github.com/rahul07bagul/Droidscope/blob/master/videos/DECAF.mp4)
-
+* Credit goes to all authors from original repository.
 
 I implemented this research paper as part of my course and faced many issues while re-implementing this project. That's why I am creating this README file for future students.
 
@@ -128,4 +128,15 @@ To use the script: `./install_uninstall.sh /path/to/your/app.apk 1`
 `load_plugin /home/developer/android_source/external/droidscope/DECAF_plugin/DroidUnpack/libunpacker.so`
 
 ### 5. Run cmd
-`do_hookapitests com.android.hellojni`
+* `do_hookapitests com.android.hellojni`
+* You can find logs in `/home/developer/Droidscope/droidscope/DECAF_plugins/old_dex_extractor/out/`
+
+### 6. I didn't get any logs after running the above commands, I don't know what I missed but if anyone gets logs let me know. There is one file in the droidscope folder that shows what logs look like.
+
+<img width=1200 src="https://github.com/rahul07bagul/Droidscope/blob/master/images/droidscope%20(1).png" alt="bench">
+
+## Learning:
+* You might face issues with missing libraries, use chatgpt with errors.
+* I don't know which commands I actually used to solve those errors but you will get answers on chatgpt or StackOverflow, else let me know. I have a file with the history of my commands.
+* I used decaf-discussion group to find solutions as I was totally a beginner.
+* I also contacted origin repository author and he helped with some steps.
