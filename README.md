@@ -125,7 +125,7 @@ Or run the following commands before installing the app:
 To use the script: `./install_uninstall.sh /path/to/your/app.apk 1`
 
 ### 4. Load DroidUnpack in Droidscope
-`load_plugin DECAF_plugin/DroidUnpack/libunpacker.so`
+`load_plugin /home/developer/android_source/external/droidscope/DECAF_plugin/DroidUnpack/libunpacker.so`
 
 ### 5. Run cmd
 `do_hookapitests com.android.hellojni`
