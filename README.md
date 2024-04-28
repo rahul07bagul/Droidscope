@@ -1,7 +1,12 @@
 # README
 
-Before you start, please check the original repository of this project:
-https://github.com/decaf-project/Droidscope/tree/master
+* Research Paper: [DroidScope: Seamlessly Reconstructing the OS and Dalvik Semantic Views for Dynamic Android Malware Analysis](https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/yan)
+* Before you start, please check the original repository of [Droidscope](https://github.com/decaf-project/Droidscope/tree/master).
+* Check [google DECAF group](https://groups.google.com/g/decaf-platform-discuss), if you face any issues.
+* Check [google archive of droidscope](https://code.google.com/archive/p/decaf-platform/wikis/DroidScope.wiki).
+* [Watch My DroidScope Implementation](https://github.com/rahul07bagul/Droidscope/blob/master/videos/Droidscope.mp4)
+* [Watch My DECAF Implementation](https://github.com/rahul07bagul/Droidscope/blob/master/videos/DECAF.mp4)
+
 
 I implemented this research paper as part of my course and faced many issues while re-implementing this project. That's why I am creating this README file for future students.
 
@@ -15,8 +20,8 @@ I implemented this research paper as part of my course and faced many issues whi
 * As the implementation used Android 5, we must also use the same version. I tried using other versions of Android to see if they would work, but they did not.
 * I attempted Android 6, 10, and 11 using AOSP, but ultimately you have to use Android 5 as the Droidscope implementation only supports Android 5.
 * Since Android 5 is a very old version, we need to set up an environment to build it.
-* Official documentation: https://source.android.com/setup/build/downloading
-* For building Android 5, read: https://source.android.com/docs/setup/start/older-versions
+* Android build official documentation: [AOSP](https://source.android.com/setup/build/downloading)
+* For building Android 5, read: [Android 5 dependencies](https://source.android.com/docs/setup/start/older-versions)
 
 ### We need the following for the build:
 * Ubuntu 14.04
@@ -28,8 +33,8 @@ I implemented this research paper as part of my course and faced many issues whi
    * I tried the Docker image and was unsure where I went wrong, but I encountered errors indicating missing GPU support needed to run the Android emulator.
    * Conclusion: You can build Android using Docker, but you cannot run the emulator from Docker. (This was my experience; your results may vary)
 * If you are considering using VirtualBox, which I eventually used when Docker failed to run the emulator:
-   * Download the Ubuntu 14.04 ISO image from: https://old-releases.ubuntu.com/releases/14.04.0/
-   * Download and install VirtualBox from: https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md
+   * Download the Ubuntu 14.04 ISO image from: [Ubunut 14.04 ISO Image](]https://old-releases.ubuntu.com/releases/14.04.0/)
+   * Download and install VirtualBox from: [VirtualBox](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md)
       * Follow the steps in the manual and use your Ubuntu 14.04 image, allocating 12 GB of memory for the VM.
 
 ## Use the below Docker file to set up the Ubuntu 14.04 environment:
