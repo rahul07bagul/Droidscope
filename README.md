@@ -58,6 +58,7 @@ I implemented this research paper as part of my course and faced many issues whi
         * Copy Ram Disk Image: `out/target/product/<device_name>/ramDisk.img`
         * Copy User Data Image: `out/target/product/<device_name>/userData.img`
         * Copy Cache Image: `out/target/product/<device_name>/cache.img`
+        * Copy Kernal zImage from goldfish kernel folder: `path/to/goldfish/out/target/product/<device_name>/obj/KERNEL_OBJ/arch/<architecture>/boot/zImage`
     * If the emulator command is running in Docker, it creates a `userData-qemu.img` file automatically:
         * If the emulator command is working: Copy User Data QEMU Image: `out/target/product/<device_name>/userData-qemu.img`
         * If the emulator command didn't work but the Android build is successful, then in the Droidscope container after the below steps, create this file manually: `userData-qemu.img` in the images directory (`touch userData-qemu.img`). 
