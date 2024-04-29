@@ -1,4 +1,4 @@
-# README
+# DroidScope Implementation
 
 * Research Paper: [DroidScope: Seamlessly Reconstructing the OS and Dalvik Semantic Views for Dynamic Android Malware Analysis](https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/yan)
 * Before you start, please check the original repository of [Droidscope](https://github.com/decaf-project/Droidscope/tree/master).
